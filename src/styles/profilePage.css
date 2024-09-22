@@ -1,0 +1,52 @@
+.profile-pic-container {
+  padding-top: 8px;
+  display: flex;
+  align-items: center; /* Centers the items horizontally (within each line of the column) */
+  flex-direction: column; /* Stacks the items vertically, one on top of the other */
+}
+
+.profile-pic {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.icon-links {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icon-links a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* LinkedIn icon color */
+.icon-links a:nth-child(1) {
+  color: #0077B5; /* LinkedIn blue */
+}
+
+.icon-links a:nth-child(1):hover {
+  color: #005582; /* Darker shade on hover */
+}
+
+/* GitHub icon color */
+.icon-links a:nth-child(2) {
+  color: #333; /* GitHub color */
+}
+
+.icon-links a:nth-child(2):hover {
+  color: #1A1A1A; /* Darker shade on hover */
+}
+
+/* Folder icon color */
+.icon-links a:nth-child(3) {
+  color: #FFD700; /* Yellow for folder */
+}
+
+.icon-links a:nth-child(3):hover {
+  color: #FFC107; /* Slightly darker yellow on hover */
+}
