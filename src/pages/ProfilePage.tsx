@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
-import blankProfile from '../assets/blank-profile.png';
+import blankProfile from '../assets/profile-pic.jpg';
 import '../styles/profilePage.css';
 function ProfilePage() {
   return (
