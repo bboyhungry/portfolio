@@ -1151,14 +1151,25 @@
                             "columnCount": 12,
                             "fields": [
                                 {
-                                    "nodeType": "FIELD",
-                                    "formFieldId": "ide3a002ae_720b_480d_b3c0_17b371aa4abc",
+                                    "nodeType": "ACTION",
+                                    "formFieldId": "id1234aabb_720b_480d_b3c0_17b371aa4abc",
                                     "formFieldLabel": "Update Medications",
-                                    "dataLabel": "medications",
+                                    "recordLink": {
+                                        "type": "COP",
+                                        "source": "hhsos",
+                                        "mode": "REPLACE",
+                                        "config": {
+                                            "activeSection": "medications",
+                                            "internalSectionNames": "medications",
+                                            "readOnlyCopPopup": "true",
+                                            "includeType": "HomeHealthMedication",
+                                            "isCoveredCop": "true"
+                                        }
+                                    },
                                     "placement": {
                                         "xStart": 0,
                                         "yStart": 0,
-                                        "columns": 12,
+                                        "columns": 11,
                                         "rows": 1
                                     },
                                     "required": {
@@ -1170,24 +1181,137 @@
                                     "enabled": {
                                         "defaultValue": true
                                     },
+                                    "cssClass": {
+                                        "defaultValue": "link"
+                                    },
                                     "inputDescriptor": {
-                                        "fieldDisplay": "CUSTOM",
-                                        "dataType": "string",
-                                        "customDisplayAttribute": "COP"
+                                        "fieldDisplay": "INTEGRATED_ACTION",
+                                        "customDisplayAttribute": "INTEGRATED_ACTION"
                                     },
                                     "columnCount": 12,
                                     "additionalProperties": {
-                                        "key": "medications",
-                                        "includeType": "HomeHealthMedication",
-                                        "hiddenFields": [
-                                            "pnc_NonCoveredMedications_Txt",
-                                            "pnc_NonCoveredMedications_items"
-                                        ]
+                                        "key": "medication_action_1"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "ACTION",
+                                    "formFieldId": "id5678ccdd_5353_4112_8199_2faba58aa2a5",
+                                    "formFieldLabel": "Clear",
+                                    "recordLink": {
+                                        "type": "ClearCOPField",
+                                        "source": "hhsos",
+                                        "mode": "REPLACE",
+                                        "destinationMap": {
+                                            "pnc_CoveredMedications_Txt": "pnc_NonCoveredMedications_Txt"
+                                        },
+                                        "config": {
+                                            "internalSectionName": "medications"
+                                        }
+                                    },
+                                    "placement": {
+                                        "xStart": 11,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "right"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INTEGRATED_ACTION",
+                                        "customDisplayAttribute": "INTEGRATED_ACTION"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "clear_medication_1"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id7f0bb22e_96f2_434d_a6dd_2d8b716fd58f",
+                                    "formFieldLabel": "",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 1,
+                                        "columns": 12,
+                                        "rows": 2
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "text-area"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "TEXT_DISPLAY",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "TEXT_DISPLAY"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_NonCoveredMedications_Txt"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id81a1b27a_e2d2_48bb_bde1_17461f6ab075",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "cp_medication_modul",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 3,
+                                        "columns": 12,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": false
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_NonCoveredMedications_items"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
                                     }
                                 }
                             ],
                             "additionalProperties": {
-                                "key": "id6854fc84_2855_4f7a_ba42_e30c15e2ca0c"
+                                "key": "id8765fc84_2855_4f7a_ba42_e30c15e2ca0c"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
                             }
                         },
                         {
