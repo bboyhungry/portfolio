@@ -1,0 +1,2167 @@
+{
+    "nodeType": "FORM",
+    "formFieldId": "standardPatientNONCItemsServicesDrugs1",
+    "formFieldLabel": "Patient Notice of Non-Covered Items, Services and Drugs 1",
+    "cssClass": {
+        "defaultValue": "no-borders "
+    },
+    "columnCount": 12,
+    "fields": [
+        {
+            "nodeType": "SECTION",
+            "formFieldId": "id046265cd_7818_4410_a6ca_942832556636",
+            "formFieldLabel": "New Section",
+            "placement": {
+                "xStart": 0,
+                "yStart": 0,
+                "columns": 12,
+                "rows": 1
+            },
+            "required": {
+                "defaultValue": false
+            },
+            "visible": {
+                "defaultValue": true
+            },
+            "enabled": {
+                "defaultValue": true
+            },
+            "cssClass": {
+                "defaultValue": "table "
+            },
+            "columnCount": 12,
+            "fields": [
+                {
+                    "nodeType": "FIELD",
+                    "formFieldId": "idfba0be96_7512_4287_9df5_275c73fdef1b",
+                    "formFieldLabel": "PATIENT NOTIFICATION OF HOSPICE NON-COVERED ITEMS, SERVICES AND DRUGS",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 0,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "cssClass": {
+                        "defaultValue": "emphasized  subheader"
+                    },
+                    "inputDescriptor": {
+                        "fieldDisplay": "LABEL",
+                        "dataType": "string",
+                        "customDisplayAttribute": "LABEL"
+                    },
+                    "columnCount": 12,
+                    "additionalProperties": {
+                        "key": "idfba0be96_7512_4287_9df5_275c73fdef1b"
+                    }
+                },
+                {
+                    "nodeType": "SECTION",
+                    "formFieldId": "id64f3776f_d7fb_46aa_8063_992abb9396da",
+                    "formFieldLabel": "New Section",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 1,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "columnCount": 12,
+                    "fields": [
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "idd4b71069_cce0_4cd3_bdbe_abb1b51dbd07",
+                            "formFieldLabel": "Patient Name",
+                            "placement": {
+                                "columnCount": 12,
+                                "xStart": 0,
+                                "yStart": 0,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "group"
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "DISPLAY",
+                                    "formFieldId": "id876e9b78_cf19_416e_9874_bc41b547a013",
+                                    "formFieldLabel": "<b>Patient Name</b>&nbsp;",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 3,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "id876e9b78_cf19_416e_9874_bc41b547a013"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "DISPLAY",
+                                    "formFieldId": "id6abea127_c7ba_453c_8e5f_2e76c5d63c8d",
+                                    "formFieldLabel": "First:&nbsp;",
+                                    "placement": {
+                                        "xStart": 3,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "id6abea127_c7ba_453c_8e5f_2e76c5d63c8d"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id72ae523d_9143_4ccf_81c6_eb5e631b8e71",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "M0040FirstName",
+                                    "placement": {
+                                        "xStart": 4,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "large"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "M0040FirstName"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "DISPLAY",
+                                    "formFieldId": "ide93449f8_e4fb_48e2_a9e3_dc43b8c2f38a",
+                                    "formFieldLabel": "Last:&nbsp;",
+                                    "placement": {
+                                        "xStart": 6,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "pl-3"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "ide93449f8_e4fb_48e2_a9e3_dc43b8c2f38a"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idcbec8a5b_4320_409a_ac5f_628df92e66bd",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "M0040LastName",
+                                    "placement": {
+                                        "xStart": 7,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "large"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "M0040LastName"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "DISPLAY",
+                                    "formFieldId": "id67ece36b_f5c0_4008_abb0_f67513052b2a",
+                                    "formFieldLabel": "MR#:&nbsp;",
+                                    "placement": {
+                                        "xStart": 9,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "pl-5"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "id67ece36b_f5c0_4008_abb0_f67513052b2a"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idbbadf91c_d616_4526_a209_983728aecdbf",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "MedicalRecordNo",
+                                    "placement": {
+                                        "xStart": 10,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "medium"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "validationMessages": {
+                                        "required": {}
+                                    },
+                                    "additionalProperties": {
+                                        "key": "MedicalRecordNo"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "idd4b71069_cce0_4cd3_bdbe_abb1b51dbd07"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "id4986eaf8_86aa_4e9f_805e_bddcbb5c0d74",
+                            "formFieldLabel": "Diagnosis Section",
+                            "placement": {
+                                "columnCount": 12,
+                                "xStart": 0,
+                                "yStart": 1,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "ACTION",
+                                    "formFieldId": "id9521caf1_0d8a_416b_944f_ae5bfc23b485",
+                                    "formFieldLabel": "Covered Diagnosis",
+                                    "recordLink": {
+                                        "type": "COP",
+                                        "source": "hhsos",
+                                        "mode": "REPLACE",
+                                        "config": {
+                                            "activeSection": "diagnosis",
+                                            "internalSectionNames": "diagnosis",
+                                            "readOnlyCopPopup": "true",
+                                            "includeType": "orders",
+                                            "isCoveredCop": "true"
+                                        }
+                                    },
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 11,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "link"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INTEGRATED_ACTION",
+                                        "customDisplayAttribute": "INTEGRATED_ACTION"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "diagnosis_action_1"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "ACTION",
+                                    "formFieldId": "id50bfff01_5353_4112_8199_2faba58aa2a5",
+                                    "formFieldLabel": "Clear",
+                                    "recordLink": {
+                                        "type": "ClearCOPField",
+                                        "source": "hhsos",
+                                        "mode": "REPLACE",
+                                        "destinationMap": {
+                                            "pnc_CoveredDiagnosis_Txt": "pnc_CoveredDiagnosis_Txt"
+                                        },
+                                        "config": {
+                                            "internalSectionName": "diagnosis"
+                                        }
+                                    },
+                                    "placement": {
+                                        "xStart": 11,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "right"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INTEGRATED_ACTION",
+                                        "customDisplayAttribute": "INTEGRATED_ACTION"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "clear_diagnosis_1"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id7f0bb22e_96f2_434d_a6dd_2d8b716fd58e",
+                                    "formFieldLabel": "",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 1,
+                                        "columns": 12,
+                                        "rows": 2
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "text-area"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "TEXT_DISPLAY",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "TEXT_DISPLAY"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_CoveredDiagnosis_Txt"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "ide618b1e7_e2d2_48bb_bde1_17461f6ab075",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "cp_diagnosis_modul",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 3,
+                                        "columns": 12,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": false
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_CoveredDiagnosis_items"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "id4986eaf8_86aa_4e9f_805e_bddcbb5c0d74"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        }
+                    ],
+                    "additionalProperties": {
+                        "key": "id64f3776f_d7fb_46aa_8063_992abb9396da"
+                    },
+                    "readOnlyVisibility": {
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "nodeType": "FIELD",
+                    "formFieldId": "idc91a3820_1319_473b_b8ba_22f14ba193b7",
+                    "formFieldLabel": "REQUEST FOR NOTIFICATION",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 2,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "cssClass": {
+                        "defaultValue": "emphasized  subheader"
+                    },
+                    "inputDescriptor": {
+                        "fieldDisplay": "LABEL",
+                        "dataType": "string",
+                        "customDisplayAttribute": "LABEL"
+                    },
+                    "columnCount": 12,
+                    "additionalProperties": {
+                        "key": "idc91a3820_1319_473b_b8ba_22f14ba193b7"
+                    }
+                },
+                {
+                    "nodeType": "SECTION",
+                    "formFieldId": "id0ba1a4ea_3604_47bd_be29_6bb9a2908540",
+                    "formFieldLabel": "New Section",
+                    "placement": {
+                        "columnCount": 12,
+                        "xStart": 0,
+                        "yStart": 3,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "columnCount": 12,
+                    "fields": [
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "id422be698_bfa8_4836_95d6_37e8fdda7e7c",
+                            "formFieldLabel": "Date Req.",
+                            "placement": {
+                                "columnCount": 12,
+                                "xStart": 0,
+                                "yStart": 0,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "group"
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "DISPLAY",
+                                    "formFieldId": "idf6509122_3ba9_40b6_94f6_e018fc1b8e7b",
+                                    "formFieldLabel": "Date Requested:",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "idf6509122_3ba9_40b6_94f6_e018fc1b8e7b"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id1286391f_d142_486b_b709_d14ec139720a",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "pnc_DateRequested",
+                                    "placement": {
+                                        "xStart": 2,
+                                        "yStart": 0,
+                                        "columns": 10,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "medium pl-1"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "DATE",
+                                        "dataType": "date",
+                                        "customDisplayAttribute": "DATE"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_DateRequested_Txt",
+                                        "clearable": true
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "id422be698_bfa8_4836_95d6_37e8fdda7e7c"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "DISPLAY",
+                            "formFieldId": "id9403a540_3798_4e69_9791_fa42a2b8cdd3",
+                            "formFieldLabel": "Additional Details - notification request:",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 1,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-1"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "id9403a540_3798_4e69_9791_fa42a2b8cdd3"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id97bc3d1e_e0ca_40ad_877b_8dbb892c8a6f",
+                            "formFieldLabel": "",
+                            "dataLabel": "AdmissionDetails",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 2,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "INPUT_TEXTAREA",
+                                "dataType": "string",
+                                "customDisplayAttribute": "INPUT_TEXTAREA"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_AdmissionDetails_Txt",
+                                "rows": 4
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        }
+                    ],
+                    "additionalProperties": {
+                        "key": "id0ba1a4ea_3604_47bd_be29_6bb9a2908540"
+                    },
+                    "readOnlyVisibility": {
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "nodeType": "FIELD",
+                    "formFieldId": "id056185cc_68b9_439d_addc_086f1284ea90",
+                    "formFieldLabel": "THE FOLLOWING ITEMS ARE NOT COVERED BY HOSPICE BECAUSE THEY HAVE BEEN DETERMINED BY THE HOSPICE TO BE UNRELATED TO YOUR TERMINAL ILLNESS AND RELATED CONDITIONS",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 4,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "cssClass": {
+                        "defaultValue": "emphasized  subheader"
+                    },
+                    "inputDescriptor": {
+                        "fieldDisplay": "LABEL",
+                        "dataType": "string",
+                        "customDisplayAttribute": "LABEL"
+                    },
+                    "columnCount": 12,
+                    "additionalProperties": {
+                        "key": "id056185cc_68b9_439d_addc_086f1284ea90"
+                    }
+                },
+                {
+                    "nodeType": "SECTION",
+                    "formFieldId": "id380eda3e_ddac_4d09_bd77_b0c4c87ab517",
+                    "formFieldLabel": "Non Covered ",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 5,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "columnCount": 12,
+                    "fields": [
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "id4986eaf8_86aa_4e9f_805e_bddcbb5c0d75",
+                            "formFieldLabel": "Diagnosis Section",
+                            "placement": {
+                                "columnCount": 12,
+                                "xStart": 0,
+                                "yStart": 1,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "ACTION",
+                                    "formFieldId": "id9521caf1_0d8a_416b_944f_ae5bfc23b485",
+                                    "formFieldLabel": "Non-Covered Diagnosis",
+                                    "recordLink": {
+                                        "type": "COP",
+                                        "source": "hhsos",
+                                        "mode": "REPLACE",
+                                        "config": {
+                                            "activeSection": "diagnosis",
+                                            "internalSectionNames": "diagnosis",
+                                            "readOnlyCopPopup": "true",
+                                            "includeType": "orders",
+                                            "isCoveredCop": "true"
+                                        }
+                                    },
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 11,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "link"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INTEGRATED_ACTION",
+                                        "customDisplayAttribute": "INTEGRATED_ACTION"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "diagnosis_action_1"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "ACTION",
+                                    "formFieldId": "id50bfff01_5353_4112_8199_2faba58aa2a5",
+                                    "formFieldLabel": "Clear",
+                                    "recordLink": {
+                                        "type": "ClearCOPField",
+                                        "source": "hhsos",
+                                        "mode": "REPLACE",
+                                        "destinationMap": {
+                                            "pnc_CoveredDiagnosis_Txt": "pnc_NonCoveredDiagnosis_Txt"
+                                        },
+                                        "config": {
+                                            "internalSectionName": "diagnosis"
+                                        }
+                                    },
+                                    "placement": {
+                                        "xStart": 11,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "right"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INTEGRATED_ACTION",
+                                        "customDisplayAttribute": "INTEGRATED_ACTION"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "clear_diagnosis_1"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id7f0bb22e_96f2_434d_a6dd_2d8b716fd58f",
+                                    "formFieldLabel": "",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 1,
+                                        "columns": 12,
+                                        "rows": 2
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "text-area"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "TEXT_DISPLAY",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "TEXT_DISPLAY"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_NonCoveredDiagnosis_Txt"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "ide618b1e7_e2d2_48bb_bde1_17461f6ab075",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "cp_diagnosis_modul",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 3,
+                                        "columns": 12,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": false
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_NonCoveredDiagnosis_items"
+                                    },
+                                    "readOnlyVisibility": {
+                                        "defaultValue": true
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "id4986eaf8_86aa_4e9f_805e_bddcbb5c0d75"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id41c85192_3c75_4cc9_a943_7b962318371b",
+                            "formFieldLabel": "&nbsp;&nbsp;<b><u>Non-Covered Items:</u></b>",
+                            "dataLabel": "pnc_NonCoveredItems",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 1,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-4"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "INPUT_TEXTAREA",
+                                "dataType": "string",
+                                "customDisplayAttribute": "INPUT_TEXTAREA"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_NonCoveredItems_Txt",
+                                "rows": 4
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id50037a6a_1064_42db_a6ad_7373729e9a72",
+                            "formFieldLabel": "&nbsp;&nbsp;<b><u>Non-Covered Services:</u></b>",
+                            "dataLabel": "pnc_NonCoveredServices",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 2,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-4"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "INPUT_TEXTAREA",
+                                "dataType": "string",
+                                "customDisplayAttribute": "INPUT_TEXTAREA"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_NonCoveredServices_Txt",
+                                "rows": 4
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "ideb1a4e18_e4b5_4b59_b92d_914a9d1b29a1",
+                            "formFieldLabel": "&nbsp;&nbsp;<b><u>Non-Covered Drugs:</u></b>",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 3,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-4 "
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_NonCoveredDrugs_Cnt"
+                            }
+                        },
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "id6854fc84_2855_4f7a_ba42_e30c15e2ca0c",
+                            "formFieldLabel": "COP",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 4,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-1"
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "ide3a002ae_720b_480d_b3c0_17b371aa4abc",
+                                    "formFieldLabel": "Update Medications",
+                                    "dataLabel": "medications",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 12,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "CUSTOM",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "COP"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "medications",
+                                        "includeType": "HomeHealthMedication",
+                                        "hiddenFields": [
+                                            "pnc_NonCoveredMedications_Txt",
+                                            "pnc_NonCoveredMedications_items"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "id6854fc84_2855_4f7a_ba42_e30c15e2ca0c"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id9161fdf7_dee0_4180_953b_94fb42b66bc8",
+                            "formFieldLabel": "&nbsp;&nbsp;<b><u>Clinical Explanation:</u></b>",
+                            "dataLabel": "pnc_ClinicalExplanation",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 5,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-4"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "INPUT_TEXTAREA",
+                                "dataType": "string",
+                                "customDisplayAttribute": "INPUT_TEXTAREA"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_ClinicalExplanation_Txt",
+                                "rows": 4
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id2f91a43b_6a77_48c3_921b_6551ce45ba98",
+                            "formFieldLabel": "<b>Note:</b> The hospice makes the decision as to whether or not conditions, items, services, and drugs are related for each beneficiary. This addendum should be shared with other healthcare providers from which you seek items, services, or drugs, unrelated to your terminal illness and related conditions to assist in making treatment decisions.",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 6,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pt-3"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_Note_Cnt"
+                            }
+                        }
+                    ],
+                    "additionalProperties": {
+                        "key": "id380eda3e_ddac_4d09_bd77_b0c4c87ab517"
+                    }
+                },
+                {
+                    "nodeType": "SECTION",
+                    "formFieldId": "idfff39f91_8ef2_42ab_9704_e3ad8fb2916c",
+                    "formFieldLabel": "Purpose of Adde",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 6,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "columnCount": 12,
+                    "fields": [
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "ideffaee5f_8c49_462f_96c3_4db5e51acc79",
+                            "formFieldLabel": "<b><u>Purpose of Addendum:</u></b>",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 0,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_PurposeAddendum2_Cnt"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id9b95d75d_30b1_4de7_911e_5b18773dd4e1",
+                            "formFieldLabel": "The purpose of the addendum is to notify the individual (or representative), in writing, of those conditions, items, services, and drugs the hospice will not be covering because the hospice has determined they are unrelated to the individual&apos;s terminal illness and related conditions.<br><br>If you request this notification within 5 days of a hospice election, the hospice must provide this form within 5 days of your request. If you request this form at any point after the first 5 days of the start date of hospice care, the hospice must provide this form within 3 days of your request.",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 1,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pb-3"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "id9b95d75d_30b1_4de7_911e_5b18773dd4e1"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "idaa47eff9_67f4_4af6_8694_ad5c073b9fed",
+                            "formFieldLabel": "<b><u>Right to Immediate Advocacy</u></b><br>Immediate advocacy is available through the Medicare Beneficiary and Family Centered Care-Quality Improvement Organization (BFCC-QIO) if the individual (or representative) disagrees with the hospice determination.",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 2,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pb-3"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_ImmediateAdvocacy_Cnt"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "ide82232df_6081_4f89_85ae_78a3ad385d15",
+                            "formFieldLabel": "We encourage you to contact your hospice provider to discuss any concerns about the diagnosis/conditions, as well as items, services, and medications listed on this form that you believe should be covered by the hospice. Beyond issues related to Medicare coverage, if you believe that your care concerns were not adequately addressed by your hospice provider. you may contact the Medicare Beneficiary and Family Centered Care Quality Improvement Organization (BFCC-QIO) to help you. While it cannot require services be covered, provided, or be paid for Medicare, the BFCC-QIO addresses quality of care issues for people with Medicare. There are various ways the BFCC-QIO can assist you: (a) verbally engaging providers on your behalf to seek quick resolution, known as Immediate Advocacy, or (b) by having an independent physician review of your medical documentation to determine if there was a quality issue.",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 3,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pb-2"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_ImmediateAdvocacy2_Cnt"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "ide052cc9e_868f_4643_8962_6c316febb844",
+                            "formFieldLabel": "As a Medicare beneficiary you have the right to appeal the decision of the hospice agency on items not be covering because the hospice has determined they are unrelated to the individual’s terminal illness and related conditions. You have the right to contact the Medicare Beneficiary and Family Centered Care-Quality Improvement Organization (BFCC-QIO) for immediate assistance.",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 4,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pb-2"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_ImmediateAdvocacy3_Cnt"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id862030fd_8a4c_44b0_a67c_fab0c396faf8",
+                            "formFieldLabel": "Visit this website to find the BFCC-QIO for your area. https://qioprogram.org or call 1-800-MEDICARE (1-800-633- 4227). TTY users can call 1-877-486-2048.",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 5,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "id862030fd_8a4c_44b0_a67c_fab0c396faf8"
+                            }
+                        }
+                    ],
+                    "additionalProperties": {
+                        "key": "idfff39f91_8ef2_42ab_9704_e3ad8fb2916c"
+                    }
+                },
+                {
+                    "nodeType": "FIELD",
+                    "formFieldId": "ida45a61e7_9b05_4880_b080_2c1fa2527c40",
+                    "formFieldLabel": "ACKNOWLEDGEMENT AND SIGNATURE",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 7,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "cssClass": {
+                        "defaultValue": "subheader  emphasized"
+                    },
+                    "inputDescriptor": {
+                        "fieldDisplay": "LABEL",
+                        "dataType": "string",
+                        "customDisplayAttribute": "LABEL"
+                    },
+                    "columnCount": 12,
+                    "additionalProperties": {
+                        "key": "ida45a61e7_9b05_4880_b080_2c1fa2527c40"
+                    }
+                },
+                {
+                    "nodeType": "SECTION",
+                    "formFieldId": "id60a8c7b3_13f8_4d10_a8ac_453719a0d423",
+                    "formFieldLabel": "Footer",
+                    "placement": {
+                        "xStart": 0,
+                        "yStart": 8,
+                        "columns": 12,
+                        "rows": 1
+                    },
+                    "required": {
+                        "defaultValue": false
+                    },
+                    "visible": {
+                        "defaultValue": true
+                    },
+                    "enabled": {
+                        "defaultValue": true
+                    },
+                    "columnCount": 12,
+                    "fields": [
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "idd02d7cd7_2bc4_4a81_bd2d_5b694a98ef73",
+                            "formFieldLabel": "New Section",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 0,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "group"
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idc60242b2_6f1f_40e6_98ad_a6de70caf723",
+                                    "formFieldLabel": "By signing this addendum (or its updates) you are only acknowledging the receipt of the addendum (or its updates) and not necessarily your agreement with the hospice&apos;s determination.",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 6,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "idc60242b2_6f1f_40e6_98ad_a6de70caf723"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idcc9bb2f1_4787_4dff_98e6_45b5b38b0062",
+                                    "formFieldLabel": "Date Furnished:",
+                                    "placement": {
+                                        "xStart": 6,
+                                        "yStart": 0,
+                                        "columns": 1,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "emphasized  pl-3"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "idcc9bb2f1_4787_4dff_98e6_45b5b38b0062"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idfac8a9ea_6eb7_46f1_8277_3646f7259320",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "pnc_DateOfFurnished",
+                                    "placement": {
+                                        "xStart": 7,
+                                        "yStart": 0,
+                                        "columns": 5,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "medium"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "DATE",
+                                        "dataType": "date",
+                                        "customDisplayAttribute": "DATE"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_DateOfFurnished_Txt",
+                                        "clearable": true
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "idd02d7cd7_2bc4_4a81_bd2d_5b694a98ef73"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "idd68f07fb_c215_461c_95ac_70d334fce9cd",
+                            "formFieldLabel": "<b>Name of Beneficiary or Representative:</b>",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 1,
+                                "columns": 4,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pl-5"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "idd68f07fb_c215_461c_95ac_70d334fce9cd"
+                            }
+                        },
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "id0c2477a5_0100_4676_8082_0be13d72579d",
+                            "formFieldLabel": "New Section",
+                            "placement": {
+                                "xStart": 4,
+                                "yStart": 1,
+                                "columns": 8,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "group pl-5"
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idbe55bf98_c5c1_49dd_be8a_8add5069d77e",
+                                    "formFieldLabel": "Date Signed:",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "emphasized "
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "LABEL",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "LABEL"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "idbe55bf98_c5c1_49dd_be8a_8add5069d77e"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "idb6fa3fc8_f471_42d1_a136_7da6cc0995f1",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "pnc_DateOfBenificiary",
+                                    "placement": {
+                                        "xStart": 2,
+                                        "yStart": 0,
+                                        "columns": 10,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": true
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "medium pl-1"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "DATE",
+                                        "dataType": "date",
+                                        "customDisplayAttribute": "DATE"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "pnc_DateOfBenificiary_Txt",
+                                        "clearable": true
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "id0c2477a5_0100_4676_8082_0be13d72579d"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "SECTION",
+                            "formFieldId": "id3c5486c3_43ce_4a3e_8d4e_5832cea531ed",
+                            "formFieldLabel": "New Section",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 2,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "group pl-5"
+                            },
+                            "columnCount": 12,
+                            "fields": [
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "id7b786310_ea25_4220_af69_6418bf67c35c",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "M0040FirstName",
+                                    "placement": {
+                                        "xStart": 0,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "large"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "M0040FirstName"
+                                    }
+                                },
+                                {
+                                    "nodeType": "FIELD",
+                                    "formFieldId": "ida14cca31_51da_4d09_87e8_a439ef01a9b0",
+                                    "formFieldLabel": "",
+                                    "dataLabel": "M0040LastName",
+                                    "placement": {
+                                        "xStart": 2,
+                                        "yStart": 0,
+                                        "columns": 2,
+                                        "rows": 1
+                                    },
+                                    "required": {
+                                        "defaultValue": false
+                                    },
+                                    "visible": {
+                                        "defaultValue": true
+                                    },
+                                    "enabled": {
+                                        "defaultValue": false
+                                    },
+                                    "cssClass": {
+                                        "defaultValue": "large pl-2"
+                                    },
+                                    "inputDescriptor": {
+                                        "fieldDisplay": "INPUT_TEXT",
+                                        "dataType": "string",
+                                        "customDisplayAttribute": "INPUT_TEXT"
+                                    },
+                                    "columnCount": 12,
+                                    "additionalProperties": {
+                                        "key": "M0040LastName"
+                                    }
+                                }
+                            ],
+                            "additionalProperties": {
+                                "key": "id3c5486c3_43ce_4a3e_8d4e_5832cea531ed"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id2b130220_46c3_40e9_a619_2e60452b902b",
+                            "formFieldLabel": "Beneficiary is <b><i>unable</b></i> to sign - Reason:",
+                            "dataLabel": "pnc_Beneficiary",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 3,
+                                "columns": 6,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pl-5 pt-3"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "CHECKBOX",
+                                "dataType": "boolean",
+                                "customDisplayAttribute": "CHECKBOX"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_Beneficiary_Chk"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id1905edf6_8c22_4e61_8c28_8adab07fb3dd",
+                            "formFieldLabel": "Beneficiary or Representative <b><i>refused</i></b> to sign - Reason (if given):",
+                            "dataLabel": "pnc_BeneficiaryRep",
+                            "placement": {
+                                "xStart": 6,
+                                "yStart": 3,
+                                "columns": 6,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pl-5 pt-3"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "CHECKBOX",
+                                "dataType": "boolean",
+                                "customDisplayAttribute": "CHECKBOX"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "pnc_BeneficiaryRep_Chk"
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id9ac186b6_b780_4547_b61a_f06f811f75f0",
+                            "formFieldLabel": "",
+                            "dataLabel": "prc_BeneficiarySign",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 4,
+                                "columns": 6,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pl-5"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "INPUT_TEXTAREA",
+                                "dataType": "string",
+                                "customDisplayAttribute": "INPUT_TEXTAREA"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "prc_BeneficiarySign_Txt",
+                                "rows": 2
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id5c46f7e9_f957_42a9_89ed_1373c294dfa6",
+                            "formFieldLabel": "",
+                            "dataLabel": "prc_BeneficiaryRefuseSign",
+                            "placement": {
+                                "xStart": 6,
+                                "yStart": 4,
+                                "columns": 6,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "pl-5"
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "INPUT_TEXTAREA",
+                                "dataType": "string",
+                                "customDisplayAttribute": "INPUT_TEXTAREA"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "prc_BeneficiaryRefuseSign_Txt",
+                                "rows": 2
+                            }
+                        },
+                        {
+                            "nodeType": "DISPLAY",
+                            "formFieldId": "id20ef6f4d_cccf_465d_b4f9_27c7937fc5d0",
+                            "formFieldLabel": "&nbsp;",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 5,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "id20ef6f4d_cccf_465d_b4f9_27c7937fc5d0"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "DISPLAY",
+                            "formFieldId": "iddd25ca64_1b5d_4deb_be54_5c92acec8eb4",
+                            "formFieldLabel": "&nbsp;",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 6,
+                                "columns": 12,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "iddd25ca64_1b5d_4deb_be54_5c92acec8eb4"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "DISPLAY",
+                            "formFieldId": "id92f4ec42_0950_4487_8efb_cd5343c5a0d7",
+                            "formFieldLabel": "Patient or Representative Signature:",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 7,
+                                "columns": 5,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "cssClass": {
+                                "defaultValue": "emphasized "
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "LABEL",
+                                "dataType": "string",
+                                "customDisplayAttribute": "LABEL"
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "id92f4ec42_0950_4487_8efb_cd5343c5a0d7"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        },
+                        {
+                            "nodeType": "FIELD",
+                            "formFieldId": "id8a9f83a1_5f2d_4bf5_be39_db0bb35d0396",
+                            "formFieldLabel": "",
+                            "dataLabel": "PatientRepSign",
+                            "placement": {
+                                "xStart": 0,
+                                "yStart": 8,
+                                "columns": 5,
+                                "rows": 1
+                            },
+                            "required": {
+                                "defaultValue": false
+                            },
+                            "visible": {
+                                "defaultValue": true
+                            },
+                            "enabled": {
+                                "defaultValue": true
+                            },
+                            "inputDescriptor": {
+                                "fieldDisplay": "FREE_HAND_SIGNATURE",
+                                "dataType": "object",
+                                "customDisplayAttribute": "FREE_HAND_SIGNATURE",
+                                "clearable": {
+                                    "defaultValue": true
+                                }
+                            },
+                            "columnCount": 12,
+                            "additionalProperties": {
+                                "key": "Svgdraw_2"
+                            },
+                            "readOnlyVisibility": {
+                                "defaultValue": true
+                            }
+                        }
+                    ],
+                    "additionalProperties": {
+                        "key": "id60a8c7b3_13f8_4d10_a8ac_453719a0d423"
+                    }
+                }
+            ],
+            "additionalProperties": {
+                "key": "id046265cd_7818_4410_a6ca_942832556636"
+            },
+            "readOnlyVisibility": {
+                "defaultValue": true
+            }
+        }
+    ]
+}
