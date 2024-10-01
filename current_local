@@ -1169,7 +1169,7 @@
                                     "placement": {
                                         "xStart": 0,
                                         "yStart": 0,
-                                        "columns": 435345,
+                                        "columns": 12,
                                         "rows": 1
                                     },
                                     "required": {
