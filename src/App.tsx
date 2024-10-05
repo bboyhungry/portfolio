@@ -1,9 +1,10 @@
-import React from 'react';
 import ProfilePage from './pages/ProfilePage';
 
 function App() {
   return (
-    <ProfilePage />
+    <div className="min-h-screen bg-blue-100">
+      <ProfilePage />
+    </div> 
   );
 }
 
