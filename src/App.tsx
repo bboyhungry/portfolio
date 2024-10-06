@@ -1,11 +1,14 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProfilePage from './pages/ProfilePage';
+import ProjectPage from './pages/ProjectPage'
 
-function App() {
-  return (
-    <div className="min-h-screen bg-blue-100">
-      <ProfilePage />
-    </div> 
-  );
-}
+const App = () => (
+  <Router basename="/portfolio">
+    <Routes>
+      <Route path="/" element={<ProfilePage />} />
+      <Route path="/project" element={<ProjectPage />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
