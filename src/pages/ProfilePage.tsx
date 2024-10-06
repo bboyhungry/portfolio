@@ -32,7 +32,7 @@ const ProfilePage = () => {
 
   const skills = [
     { category: "Languages", items: ["C/C++", "CSS", "Python", "Java", "JavaScript"] },
-    { category: "Cloud Services", items: ["Amazon Web Service"] },
+    { category: "Cloud Services", items: ["Amazon Web Services"] },
     { category: "Technology", items: ["Docker, Jenkins, Git"] }
   ];
 
@@ -51,7 +51,7 @@ const ProfilePage = () => {
 
       <Section title="Education">
         <h3 className="text-lg font-medium">University of California, Santa Cruz</h3>
-        <p>B.S Computer Sciencce</p>
+        <p>B.S Computer Science</p>
       </Section>
 
       <hr className="my-6 border-1 border-black" />
