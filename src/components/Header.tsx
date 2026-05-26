@@ -1,19 +1,16 @@
-import SocialLinks from './SocialLinks'; 
+import SocialLinks from './SocialLinks';
 import profilePic from '../assets/profile-pic.jpg';
 
 const Header = () => (
-  <header className="text-center py-8">
-    <h1 className="text-3xl font-bold mb-4">
-      <a href="https://bboyhungry.github.io/portfolio" className="text-blue-600 hover:text-blue-800">Henry Dang</a>
-    </h1>
-    <img 
-      src={profilePic} 
-      alt="Headshot" 
-      className="rounded-full w-32 h-32 md:w-48 md:h-48 object-cover mx-auto" 
+  <header className="py-16 text-center border-b border-slate-700">
+    <img
+      src={profilePic}
+      alt="Headshot"
+      className="w-28 h-28 rounded-full mx-auto object-cover ring-2 ring-slate-600 mb-6"
     />
-    <div className="mt-8">
-      <SocialLinks />
-    </div>
+    <h1 className="text-3xl font-bold text-white mb-1">Henry Dang</h1>
+    <p className="text-slate-400 mb-8">Fullstack Software Engineer</p>
+    <SocialLinks />
   </header>
 );
 

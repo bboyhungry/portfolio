@@ -1,20 +1,15 @@
 import { ReactNode } from 'react';
 
 interface SectionProps {
-    title: string;
-    children: ReactNode;
-  }
-
-const Section = (props: SectionProps) => {
-
-    const { title, children } = props;
-    
-    return (
-        <section className="mt-8">
-            <h2 className="text-xl font-semibold mb-3">{title}</h2>
-            {children}
-        </section>
-    );
+  title: string;
+  children: ReactNode;
 }
+
+const Section = ({ title, children }: SectionProps) => (
+  <section className="py-10 border-b border-slate-700 last:border-0">
+    <h2 className="text-xs font-semibold tracking-widest text-sky-400 uppercase mb-6">{title}</h2>
+    {children}
+  </section>
+);
 
 export default Section;
